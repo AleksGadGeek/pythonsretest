@@ -1,7 +1,3 @@
-# pythonsretest
-python SRe testing code hello world
----
-
 # Public Website (Hello World) - Python
 
 This repository contains a simple Python web application that displays a "Hello World" message on a public website. The purpose of this project is to provide a basic template for creating a Python web application and deploying it on a public server.
@@ -19,7 +15,7 @@ Before getting started, ensure that you have the following prerequisites install
 
 Follow the steps below to create and deploy the public website:
 
-1. **Clone the Repository**: Begin by cloning this repository to your local machine using the command: `git clone https://github.com/aleksgadgeek/pythonsretest.git`
+1. **Clone the Repository**: Begin by cloning this repository to your local machine using the command: `git clone https://github.com/AleksGadGeek/pythonsretest.git`
 
 2. **Create and Activate Virtual Environment**: Change into the project directory and create a virtual environment by running the command: `python3 -m venv env`. Activate the virtual environment using the command: `source env/bin/activate` (for macOS/Linux) or `env\Scripts\activate` (for Windows).
 
