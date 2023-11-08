@@ -45,11 +45,11 @@ Answers of Challenge
 
 SRE Technical Challenge: 
 
-#1. Explain TTD, TTR and the importance of measuring it?
+`1. Explain TTD, TTR and the importance of measuring it?`
 Measuring TTD and TTR provides valuable insights into an organization's ability to detect and respond to security incidents. By monitoring these metrics, organizations can identify areas for improvement, enhance incident response capabilities, and ensure compliance with industry regulations.
 
 
-#2. What are the benefits of distributed tracing?
+`2. What are the benefits of distributed tracing?`
 -It enhances visibility by providing a comprehensive view of request flow across various services. 
 -It enables root cause analysis by tracing the exact path of a request, leading to quicker problem resolution. 
 -Performance optimization is possible through identifying bottlenecks and optimizing resource allocation. 
@@ -59,23 +59,22 @@ Measuring TTD and TTR provides valuable insights into an organization's ability 
 -Lastly, it assists in scalability testing and performance analysis. 
 -Overall, distributed tracing improves system understanding, performance, issue resolution, and collaboration, resulting in more reliable applications.
 
-#3. What is the purpose of postmortems? 
+`3. What is the purpose of postmortems?`
 -Postmortems, also known as incident retrospectives, serve several important purposes. They aim to understand incidents by analyzing their causes and timeline. 
 -Postmortems also identify lessons learned for preventing future incidents. 
 -They enhance communication and collaboration within teams and foster a blameless culture that focuses on learning, not blaming individuals. 
 -The ultimate goal is continuous improvement, achieved by iterating on incident response processes and improving system resilience. 
 -By conducting regular postmortems, organizations can create a culture of learning and enhance the overall reliability of their systems.
 
-#4. How do you practice blameless postmortems? 
+`4. How do you practice blameless postmortems?`
 We propose establishing weekly meetings or standups when a major incident occurs and it has caused disruptions. During these meetings, we will discuss with the team the response time, how the problem was identified, what actions were taken to correct it, and which measures or best practices were employed. We will also make note of any actions that were ineffective. It is important to remember that mistakes are opportunities for learning, and we can learn more when we identify shortcomings without assigning blame. Instead, we will foster a team approach and remain attentive to future incidents in order to learn from both the positives and negatives and rectify any mistakes that may have been made. Being on the same page and working together to solve problems is essential.
 
 
-#5. What is "Continuous Integration" with reference to Jenkins? 
+`5. What is "Continuous Integration" with reference to Jenkins?`
 In Jenkins, continuous integration refers to automatically building and testing code changes as they are committed to a version control system. This practice promotes collaboration, ensures that the software is always in a working state, and provides quick feedback on code quality. Jenkins helps reduce manual errors and allows developers to integrate their changes frequently, leading to faster development cycles and improved software reliability.
 
 
-#6. Create a public http://github.com repository with a website (hello world) based in python including a detailed http://README.md with a playbook for the steps. 
-
+`6. Create a public http://github.com repository with a website (hello world) based in python including a detailed http://README.md with a playbook for the steps.`
 app.py
 
 #python app Hello world
@@ -88,13 +87,11 @@ if __name__ == '__main__':
     app.run()
 
 
-#7. Include a pipeline example in your GitHub repository for Automatic Deployment with any python change. 
+`7. Include a pipeline example in your GitHub repository for Automatic Deployment with any python change.`
 Here's an example of using a continuous integration/continuous deployment (CI/CD) pipeline with GitHub Actions for automatic deployment whenever there is a change in the Python code:
 
 1. Create a new file called `.github/workflows/deploy.yml` in your repository.
-
 2. Add the following content to `deploy.yml`:
-
 
 name: Deploy
 
@@ -131,6 +128,6 @@ jobs:
           # For example, you can use scp or rsync to copy the files to a server
 
 
-#8. Include an open-source tool to do vulnerability tests to your code.
+`8. Include an open-source tool to do vulnerability tests to your code.`
 An open source tool that you can use for vulnerability testing in your Python code, with compatibility for Jenkins integrations, is Bandit.
 Bandit is a security linter that analyzes your Python code and identifies common security vulnerabilities such as potential XSS (Cross-Site Scripting) attacks, SQL injection flaws, and more.
